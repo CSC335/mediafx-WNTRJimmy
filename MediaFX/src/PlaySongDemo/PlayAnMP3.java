@@ -24,7 +24,7 @@ public class PlayAnMP3 extends Application {
   }
 
   private int songsPlayed = 0;
-
+  // I added a riveting comment here that explains what is going on
   @Override
   public void start(Stage stage) throws Exception {
     BorderPane pane = new BorderPane();
@@ -38,7 +38,7 @@ public class PlayAnMP3 extends Application {
     stage.show();
   }
 
-  
+  // I remembered how this function works all is good
   private void playASong(String path) {
    
     // Need a File and URI object so the path works on all OSs
